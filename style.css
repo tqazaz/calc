@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+* {  margin: 0 ; padding: 0 ; }
+
+body {
+  background-color: #F5F5F5 ;
+}
+
+#title {
+  text-align: center; margin-top: 3em ; border: 5px solid #2E9A9C ;
+  width: 275px ; color: #333333  ; margin: 0 auto; margin-top: 6em ;
+}
+
+.CBody {
+  width: 280px ; height: 412px ;
+  background-color: #2E9A9C ; text-align: center;
+  text-align: center; margin: 0 auto;
+  margin-top: 1em ;
+}
+
+
+#screen {
+  height: 60px ; width: 230px ; background-color: #333333 ;
+  margin: 12px 45px 15px 15px ;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+  color:white ;
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  font-size: 20px ;
+  padding-left: 10px ;
+}
+#screen:hover {
+  background-color: grey ;
+}
+
+.newRow {
+  margin-top: 12px ; margin-right: 30px ;
+}
+
+button {
+  color:white ;
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  background-color:black;
+  border:1px solid;
+  font-size: 20px ;
+  border-color: #696 #363 #363 #696;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.SquareButton {
+  height: 50px ; width: 50px ;
+}
+
+.RectangleButton {
+    height: 50px ; width: 110px ; margin-left: 2px ;
+}
+
+#resetButton , #deleteButton {
+  background-color: #31B4DC ;
+}
+#resetButton:hover , #deleteButton:hover  {
+  background-color: red ;
+}
+#equalButton {
+  background-color: #24A732 ;
+}
+#equalButton:hover {
+  background-color: #31B4DC ;
+}
